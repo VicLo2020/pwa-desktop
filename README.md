@@ -7,9 +7,11 @@ Example with Desktop PWA
 You will need the following things properly installed on your computer.
 
 * [Git](http://git-scm.com/) (optional)
-* [PHP](https://www.php.net/downloads.php) LTS version (with NPM)
+* [PHP](https://www.php.net/downloads.php)
 * [Python](https://www.python.org/)
-PS: PHP or Python according to your desire.
+* [Apache](https://httpd.apache.org/download.cgi) Linux or [Apache for Windows](https://apache-windows.ru/)
+* [NGINX](https://nginx.org/)
+PS: Choose your own server suitable for you.
 
 ## Installation
 
@@ -32,13 +34,16 @@ Start:
 
 ### Use
 
-* Visit your app at [http://localhost:80](http://localhost:80).
-* If this is your first time on a page, you need to wait about 30 seconds. 
-A button will appear for installing the application.
-Or just click the "+" button located on the right in the address bar.
+1. Visit your app at [http://localhost:80](http://localhost:80).
+2. If this is your first time on a page, you need to wait about 30 seconds. 
+
+* A button will appear for installing the application.
+* Or just click the "+" button located on the right in the address bar.
 * The application will be installed on your desktop.
-* Uninstall an application:
-** Go to the address [chrome://apps](chrome://apps). 
-** Right-click on the application to be deleted and select "uninstall application". 
-** Check the box - delete data. 
-** Click the "Delete" button. The application will be removed from the desktop.
+
+### Uninstall
+1. Uninstall an application:
+2. Go to the address [chrome://apps](chrome://apps). 
+3. Right-click on the application to be deleted and select "uninstall application". 
+4. Check the box - delete data. 
+5. Click the "Delete" button. The application will be removed from the desktop.
