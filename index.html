@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+<!--    <base href="http://www.site.com/"> -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="manifest.json">
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="PWA test">
+    <meta name="apple-mobile-web-app-title" content="PWA test">
+    <meta name="theme-color" content="#282c34">
+    <meta name="msapplication-navbutton-color" content="#282c34">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="msapplication-starturl" content="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" href="App.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Desktop PWA Example</title>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+
+    <div id="root">
+            <div class="App">
+                <div class="App-bar"></div>
+                <header class="App-header">
+                    <h1>Example<br>with Desktop PWAs</h1>
+                        <button id="install" style="display:none">
+                            Add to Home Screen
+                        </button>
+                    <a href="https://developers.google.com/web/progressive-web-apps">
+                        Progressive Web Applications
+                    </a>
+                    <a href="https://developers.google.com/web/progressive-web-apps/desktop">
+                        Desktop PWAs
+                    </a>
+                    <a href="https://developers.google.com/web/fundamentals/app-install-banners/">
+                        Install banners
+                    </a>
+                    <a href="https://developers.google.com/web/fundamentals/web-app-manifest/">
+                        Manifest
+                    </a>
+                    <a href="https://www.chromium.org/blink/serviceworker/service-worker-faq">
+			Service Worker Debugging
+		    </a>
+                </header>
+            </div>
+    </div>
+	
+	<script src='serviceWorker.js'></script>
+	<script src='App.js'></script>
+	<script src='index.js'></script>
+
+  </body>
+</html>
