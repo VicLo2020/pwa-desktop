@@ -1,6 +1,6 @@
 # PWA-Desktop
 
-Example with Desktop PWA
+Example with Desktop PWA. Without additional libraries and megatons of unnecessary junk from Nodes.
 
 ## Prerequisites
 
