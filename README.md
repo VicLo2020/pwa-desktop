@@ -12,6 +12,7 @@ You will need the following things properly installed on your computer.
 * [Python](https://www.python.org/)
 * [Apache](https://httpd.apache.org/download.cgi) Linux or [Apache for Windows](https://apache-windows.ru/)
 * [NGINX](https://nginx.org/)
+
 PS: Choose your own server suitable for you.
 
 ## Installation
@@ -24,9 +25,9 @@ PS: Choose your own server suitable for you.
 
 You can launch local project
 Start:
-* chrome.exe --unsafely-treat-insecure-origin-as-secure=http://localhost
-* php -S localhost:80 -t {path to project}
-* cd {path to project}, python -m http.server 80 --bind 127.0.0.1
+* **chrome.exe --unsafely-treat-insecure-origin-as-secure=http://localhost**
+* **php -S localhost:80 -t {path to project}**
+* You can use  **python -m http.server 80 --bind 127.0.0.1**  (??? - This does not work. Returns javascript as plain/text)
 * Visit your app at [http://localhost:80](http://localhost:80).
 
 ### Building
@@ -39,12 +40,12 @@ Start:
 2. If this is your first time on a page, you need to wait about 30 seconds. 
 
  * A button will appear for installing the application.
- * Or just click the "+" button located on the right in the address bar.
+ * Or just click the **"+" button** located on the right in the address bar.
  * The application will be installed on your desktop. Now you can launch the application from the desktop.
 
-### Uninstall
-1. Uninstall an PWA application:
-2. Go to the address [chrome://apps](chrome://apps). 
-3. Right-click on the application to be deleted and select "uninstall application". 
-4. Check the box - delete data. 
-5. Click the "Delete" button. The application will be removed from the desktop.
+### Uninstall from descktop
+
+1. Go to the address [chrome://apps](chrome://apps). 
+2. Right-click on the application to be deleted and select "uninstall application". 
+3. Check the box - delete data. 
+4. Click the "Delete" button. The application will be removed from the desktop.
