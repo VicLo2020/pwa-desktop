@@ -12,7 +12,7 @@ You will need the following things properly installed on your computer.
 * [Python](https://www.python.org/)
 * [Apache](https://httpd.apache.org/download.cgi) Linux or [Apache for Windows](https://apache-windows.ru/)
 * [NGINX](https://nginx.org/)
-* [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb)
+* [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb) Under construction :)
 
 PS: Choose your own server suitable for you.
 
